@@ -31,7 +31,7 @@ class CommentSection extends React.Component {
         if (this.state.commentValue === '') {
             alert('You have to write a comment first!')
         } else {
-            contentCopy.push({
+            this.state.content.push({
                 username: localStorage.getItem('user'),
                 text: this.state.commentValue})
             this.setState(state => ({
