@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/Marguelgtz/React-Insta-Clone/precache-manifest.c02786feb19102926057e07fdd1611ad.js"
+  "/React-Insta-Clone/precache-manifest.df9096085a89b5e239761308c03de51b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Marguelgtz/React-Insta-Clone/index.html", {
+workbox.routing.registerNavigationRoute("/React-Insta-Clone/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
