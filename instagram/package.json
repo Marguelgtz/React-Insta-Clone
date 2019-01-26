@@ -2,6 +2,7 @@
   "name": "instagram",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marguelgtz.github.io/React-Insta-Clone/",
   "dependencies": {
     "babel-loader": "^8.0.4",
     "bootstrap": "^4.1.3",
